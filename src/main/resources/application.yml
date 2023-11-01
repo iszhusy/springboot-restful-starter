@@ -18,3 +18,12 @@ server:
     context-path: /v1     # 应用路径，可以通过设置路径来控制版本
   tomcat:
     uri-encoding: UTF-8
+
+ea:
+  mussel:
+    enabled: true
+    env: boe
+    app-id: 6982a64d-3be9-4603-913f-00b7da59f530
+    secret: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3NNb04K6IjFtws/9ITvUCRAEbdIOeCfN4+K+0Fjw5KVUqYhd8N77AEUwuLxS9OKyzMcngwSnbisP67blWpx7XAArmXX5VX13akUJwb49V3vthLv+kFroEWVIrn8og5SL1sLRQGuKnXfKz4pFeWbJzf+J8BMh6WhVhFcfqJx527QIDAQAB
+    tos-channel-id:
+      - tos_7257724733393862956

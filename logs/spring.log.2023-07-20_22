@@ -1,0 +1,27 @@
+INFO 2023-07-20 22:01:23.854 v1(6) RetryExec.java:97 _ _ _ _ _ [config-update-0] I/O exception (org.apache.http.conn.ConnectTimeoutException) caught when processing request to {}->http://10.225.72.118:9923: Connect to 10.225.72.118:9923 [/10.225.72.118] failed: connect timed out
+INFO 2023-07-20 22:01:23.855 v1(6) RetryExec.java:113 _ _ _ _ _ [config-update-0] Retrying request to {}->http://10.225.72.118:9923
+ERROR 2023-07-20 22:22:37.800 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: timeout
+WARN 2023-07-20 22:22:37.801 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:24:21.900 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: timeout
+WARN 2023-07-20 22:24:21.902 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:24:27.915 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-20 22:24:27.917 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:32:52.155 v1(6) ConsulTccFactory.java:81 _ _ _ _ _ [Bytedtrcae-tcc-update-thread] the cluster default has no instance
+ERROR 2023-07-20 22:32:53.352 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: Failed to connect to /10.37.20.200:2280
+WARN 2023-07-20 22:32:53.352 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:32:56.364 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: Failed to connect to /10.37.20.200:2280
+WARN 2023-07-20 22:32:56.364 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:33:02.372 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-20 22:33:02.372 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:33:08.381 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-20 22:33:08.382 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:33:14.393 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-20 22:33:14.394 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:48:45.214 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-20 22:48:45.215 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:48:51.227 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-20 22:48:51.227 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:48:57.237 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-20 22:48:57.237 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-20 22:49:03.249 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-20 22:49:03.249 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts

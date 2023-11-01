@@ -1,0 +1,13 @@
+
+`
+java:S2095/"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(¿×óê
+o
+java:S2095."MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Å²º±úÿÿÿÿ8·‹Šš±1
+h
+java:S20953"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Øç‰#8·‹Šš±1
+H
+java:S1135"2Complete the task associated to this TODO comment.(Üð£Å
+a
+java:S2147P"DCombine this catch with the one at line 78, which has the same body.(ï­£Ä8¼‹Šš±1
+L	java:S106-"+Replace this use of System.out by a logger.(¯€ˆ‹üÿÿÿÿ8¼‹Šš±1
+G	java:S106M"+Replace this use of System.out by a logger.(Ëóðð8Â‹Šš±1

@@ -1,0 +1,12 @@
+ERROR 2023-07-21 00:13:27.127 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 00:13:27.127 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 00:15:00.515 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 00:15:00.520 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 00:15:06.532 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 00:15:06.532 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 00:30:43.037 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 00:30:43.037 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 00:48:40.579 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 00:48:40.582 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 00:50:54.767 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 00:50:54.767 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts

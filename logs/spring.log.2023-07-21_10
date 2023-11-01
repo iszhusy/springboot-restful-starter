@@ -1,0 +1,656 @@
+ERROR 2023-07-21 10:13:48.613 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 10:13:48.613 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 10:26:52.023 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 10:26:52.024 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 10:26:58.043 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 10:26:58.044 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 10:27:01.048 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: Failed to connect to /10.37.20.200:2280
+WARN 2023-07-21 10:27:01.048 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 10:27:04.062 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: Failed to connect to /10.37.20.200:2280
+WARN 2023-07-21 10:27:04.062 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 10:37:56.455 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: Failed to connect to /10.37.20.200:2280
+WARN 2023-07-21 10:37:56.455 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 10:47:56.476 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: Read timed out
+WARN 2023-07-21 10:47:56.477 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+INFO 2023-07-21 10:54:57.715 v1(6) AbstractConnector.java:381 _ _ _ _ _ [Thread-148] Stopped ServerConnector@3944c94{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 10:54:57.716 v1(6) HouseKeeper.java:149 _ _ _ _ _ [Thread-148] node0 Stopped scavenging
+INFO 2023-07-21 10:54:57.717 v1(6) ContextHandler.java:2347 _ _ _ _ _ [Thread-148] Destroying Spring FrameworkServlet 'dispatcherServlet'
+INFO 2023-07-21 10:54:57.718 v1(6) ContextHandler.java:1153 _ _ _ _ _ [Thread-148] Stopped c.b.m.j.w.JettyEmbeddedWebAppContext@1c4a0b03{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.8154185939767052544/],STOPPED}
+INFO 2023-07-21 10:54:57.739 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [Thread-148] Shutting down ExecutorService 'threadPoolTaskExecutor'
+INFO 2023-07-21 10:54:57.751 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [Thread-148] {dataSource-7} closed
+INFO 2023-07-21 10:54:58.223 v1(6) PropertySourceBootstrapConfiguration.java:112 _ _ _ _ _ [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:54:58.223 v1(6) PropertySourceBootstrapConfiguration.java:112 _ _ _ _ _ [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:54:58.569 v1(6) SpringApplication.java:652 _ _ _ _ _ [restartedMain] The following profiles are active: dev
+2023-07-21 10:54:58.861  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.neko.seed.ApplicationTests], using SpringBootContextLoader
+2023-07-21 10:54:58.865  INFO   --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.neko.seed.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-07-21 10:54:58.866  INFO   --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neko.seed.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO 2023-07-21 10:54:58.932 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:54:58.932 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [restartedMain] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:54:58.936 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [restartedMain] Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2023-07-21 10:54:58.941  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neko.seed.Application for test class com.neko.seed.ApplicationTests
+WARN 2023-07-21 10:54:58.984 v1(6) Logger.java:44 _ _ _ _ _ [restartedMain] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:54:58.984 v1(6) Logger.java:44 _ _ _ _ _ [restartedMain] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:54:58.990 v1(6) GenericScope.java:295 _ _ _ _ _ [restartedMain] BeanFactory id=b7d88ab2-619e-3dde-8c8f-96471a1652c9
+INFO 2023-07-21 10:54:59.000 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:54:59.002 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:54:59.003 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:54:59.004 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:54:59.005 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:54:59.006 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:54:59.007 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-21 10:54:59.011  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-07-21 10:54:59.021  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f67a4d3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e3f861, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2fb0623e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49b2a47d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5be1d0a4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@415b0b49, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d5620ce, org.springframework.test.context.event.EventPublishingTestExecutionListener@311bf055, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@642a7222, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7d322cad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21be3395, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f49f6af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78452606, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@147e2ae7]
+INFO 2023-07-21 10:54:59.076 v1(6) MeshConfigure.java:25 _ _ _ _ _ [restartedMain] http mesh is disabled.
+INFO 2023-07-21 10:54:59.135 v1(6) JettyServletWebServerFactory.java:149 _ _ _ _ _ [restartedMain] Server initialized with port: 8081
+INFO 2023-07-21 10:54:59.136 v1(6) Server.java:375 _ _ _ _ _ [restartedMain] jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 1.8.0_372-b07
+INFO 2023-07-21 10:54:59.136 v1(6) DefaultSessionIdManager.java:334 _ _ _ _ _ [restartedMain] DefaultSessionIdManager workerName=node0
+INFO 2023-07-21 10:54:59.136 v1(6) DefaultSessionIdManager.java:339 _ _ _ _ _ [restartedMain] No SessionScavenger set, using defaults
+INFO 2023-07-21 10:54:59.137 v1(6) HouseKeeper.java:132 _ _ _ _ _ [restartedMain] node0 Scavenging every 660000ms
+INFO 2023-07-21 10:54:59.138 v1(6) ContextHandler.java:2347 _ _ _ _ _ [restartedMain] Initializing Spring embedded WebApplicationContext
+INFO 2023-07-21 10:54:59.138 v1(6) ServletWebServerApplicationContext.java:285 _ _ _ _ _ [restartedMain] Root WebApplicationContext: initialization completed in 563 ms
+WARN 2023-07-21 10:54:59.153 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [restartedMain] reporter has started. 
+INFO 2023-07-21 10:54:59.197 v1(6) ContextHandler.java:915 _ _ _ _ _ [restartedMain] Started c.b.m.j.w.JettyEmbeddedWebAppContext@2d76ab18{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.7445072723203574003/],AVAILABLE}
+INFO 2023-07-21 10:54:59.198 v1(6) Server.java:415 _ _ _ _ _ [restartedMain] Started @4921732ms
+INFO 2023-07-21 10:54:59.216 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [restartedMain] Init DruidDataSource
+INFO 2023-07-21 10:54:59.260 v1(6) DruidDataSource.java:930 _ _ _ _ _ [restartedMain] {dataSource-8} inited
+WARN 2023-07-21 10:54:59.354 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [restartedMain] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:54:59.355 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+INFO 2023-07-21 10:54:59.500 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [restartedMain] Trace has been initialized with framework default
+INFO 2023-07-21 10:54:59.523 v1(6) MetricsClient.java:201 _ _ _ _ _ [restartedMain] metrics sdk use localhost inet socket to emit metrics
+INFO 2023-07-21 10:54:59.571 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [restartedMain] Initializing ExecutorService 'threadPoolTaskExecutor'
+2023-07-21 10:54:59.593  WARN 74045 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+WARN 2023-07-21 10:54:59.741 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [restartedMain] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:54:59.762 v1(6) OptionalLiveReloadServer.java:58 _ _ _ _ _ [restartedMain] LiveReload server is running on port 35729
+INFO 2023-07-21 10:54:59.785 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:54:59.830 v1(6) ContextHandler.java:2347 _ _ _ _ _ [restartedMain] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2023-07-21 10:54:59.830 v1(6) FrameworkServlet.java:525 _ _ _ _ _ [restartedMain] Initializing Servlet 'dispatcherServlet'
+INFO 2023-07-21 10:54:59.833 v1(6) FrameworkServlet.java:547 _ _ _ _ _ [restartedMain] Completed initialization in 3 ms
+INFO 2023-07-21 10:54:59.837 v1(6) AbstractConnector.java:331 _ _ _ _ _ [restartedMain] Started ServerConnector@27cd655d{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 10:54:59.838 v1(6) JettyWebServer.java:157 _ _ _ _ _ [restartedMain] Jetty started on port(s) 8081 (http/1.1) with context path ''
+INFO 2023-07-21 10:54:59.848 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [restartedMain] Started Application in 1.81 seconds (JVM running for 4922.382)
+INFO 2023-07-21 10:54:59.852 v1(6) ConditionEvaluationDeltaLoggingListener.java:63 _ _ _ _ _ [restartedMain] Condition evaluation unchanged
+2023-07-21 10:55:00.157  INFO 74045 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+2023-07-21 10:55:00.157  INFO 74045 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:55:00.195 v1(6) SpringApplication.java:652 _ _ _ _ _ [main] The following profiles are active: dev
+INFO 2023-07-21 10:55:00.893 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:55:00.896 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:55:00.922 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [main] Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+WARN 2023-07-21 10:55:01.048 v1(6) Logger.java:44 _ _ _ _ _ [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:55:01.048 v1(6) Logger.java:44 _ _ _ _ _ [main] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:55:01.130 v1(6) GenericScope.java:295 _ _ _ _ _ [main] BeanFactory id=9a37f43d-2d0c-3c8c-b348-682c9c8389a8
+INFO 2023-07-21 10:55:01.202 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:55:01.215 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:55:01.221 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:55:01.225 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:55:01.387 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:55:01.501 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:55:01.575 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:55:01.973 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [main] Init DruidDataSource
+INFO 2023-07-21 10:55:02.169 v1(6) DruidDataSource.java:930 _ _ _ _ _ [main] {dataSource-1} inited
+INFO 2023-07-21 10:55:02.552 v1(6) Log.java:170 _ _ _ _ _ [main] Logging initialized @4250ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO 2023-07-21 10:55:02.685 v1(6) MeshConfigure.java:25 _ _ _ _ _ [main] http mesh is disabled.
+WARN 2023-07-21 10:55:02.748 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:55:02.749 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:55:02.753 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:55:02.753 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:55:02.982 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [main] reporter has started. 
+INFO 2023-07-21 10:55:04.387 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The configurator set Tcc configurator.
+INFO 2023-07-21 10:55:04.416 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The reporter is agent reporter as default.
+INFO 2023-07-21 10:55:04.444 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] Tracer environment: {"cluster":"default","dc":"boe","env":"prod","framework":"default","ipv4":"10.68.186.178","ipv6":"fe80:0:0:0:ce81:b1c:bd2c:69e","language":"java","podName":"-","serviceName":"sensitive-java-sdk","stage":"unknown"}
+INFO 2023-07-21 10:55:04.445 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [main] Trace has been initialized with framework default
+WARN 2023-07-21 10:55:04.560 v1(6) UnixMetricsClient.java:24 _ _ _ _ _ [main] could not write to /opt/tmp/sock/metric.sock
+INFO 2023-07-21 10:55:04.564 v1(6) MetricsClient.java:201 _ _ _ _ _ [main] metrics sdk use localhost inet socket to emit metrics
+INFO 2023-07-21 10:55:04.845 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [main] Initializing ExecutorService 'threadPoolTaskExecutor'
+WARN 2023-07-21 10:55:05.391 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [main] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:55:05.528 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:55:05.594 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [main] Started ApplicationTests in 6.54 seconds (JVM running for 7.291)
+INFO 2023-07-21 10:55:22.711 v1(6) LoggingClientHttpRequestInterceptor.java:80 _ _ _ _ _ [main] start request: URI: sd://ea.infra.mussel_api_boe/mussel/api/v1/auth/system/6982a64d-3be9-4603-913f-00b7da59f530/meta-info; Method: POST; Headers: [Accept:application/json, application/*+json, User-Agent:mussel-java-sdk/0.0.5-SNAPSHOT(java-1.8.0_372), Content-Type:application/json, MU-SYS-ID:6982a64d-3be9-4603-913f-00b7da59f530, MU-TIMESTAMP:1689908117726, MU-SIGN:e6e0519d133e6e3dc818d1b70844edc8, destination-idc:boe, Content-Length:196]; 
+INFO 2023-07-21 10:55:26.544 v1(6) LoggingClientHttpRequestInterceptor.java:69 _ _ _ _ _ [main] request spend time: 3829 ms
+INFO 2023-07-21 10:55:46.133 v1(6) LoggingClientHttpRequestInterceptor.java:80 _ _ _ _ _ [main] start request: URI: sd://ea.infra.mussel_api_boe/mussel/api/v1/auth/file-auth/temporary/preview; Method: POST; Headers: [Accept:application/json, application/*+json, User-Agent:mussel-java-sdk/0.0.5-SNAPSHOT(java-1.8.0_372), Content-Type:application/json, MU-SYS-ID:6982a64d-3be9-4603-913f-00b7da59f530, MU-TIMESTAMP:1689908145291, MU-SIGN:45b78e85d81f8ed081e149d712504efc, destination-idc:boe, Content-Length:167]; 
+INFO 2023-07-21 10:55:47.269 v1(6) LoggingClientHttpRequestInterceptor.java:69 _ _ _ _ _ [main] request spend time: 1131 ms
+INFO 2023-07-21 10:56:15.156 v1(6) RetryExec.java:97 _ _ _ _ _ [Bytedtrcae-tcc-update-thread] I/O exception (java.net.SocketException) caught when processing request to {}->http://10.225.133.116:9699: Socket closed
+INFO 2023-07-21 10:56:15.156 v1(6) RetryExec.java:113 _ _ _ _ _ [Bytedtrcae-tcc-update-thread] Retrying request to {}->http://10.225.133.116:9699
+INFO 2023-07-21 10:56:15.159 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [SpringContextShutdownHook] Shutting down ExecutorService 'threadPoolTaskExecutor'
+INFO 2023-07-21 10:56:15.193 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [SpringContextShutdownHook] {dataSource-1} closed
+INFO 2023-07-21 10:56:24.391 v1(6) AbstractConnector.java:381 _ _ _ _ _ [Thread-166] Stopped ServerConnector@27cd655d{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 10:56:24.392 v1(6) HouseKeeper.java:149 _ _ _ _ _ [Thread-166] node0 Stopped scavenging
+INFO 2023-07-21 10:56:24.396 v1(6) ContextHandler.java:2347 _ _ _ _ _ [Thread-166] Destroying Spring FrameworkServlet 'dispatcherServlet'
+INFO 2023-07-21 10:56:24.397 v1(6) ContextHandler.java:1153 _ _ _ _ _ [Thread-166] Stopped c.b.m.j.w.JettyEmbeddedWebAppContext@2d76ab18{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.7445072723203574003/],STOPPED}
+INFO 2023-07-21 10:56:24.444 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [Thread-166] Shutting down ExecutorService 'threadPoolTaskExecutor'
+INFO 2023-07-21 10:56:24.450 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [Thread-166] {dataSource-8} closed
+2023-07-21 10:56:24.478  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.neko.seed.ApplicationTests], using SpringBootContextLoader
+2023-07-21 10:56:24.486  INFO   --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.neko.seed.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-07-21 10:56:24.486  INFO   --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neko.seed.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-07-21 10:56:24.586  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neko.seed.Application for test class com.neko.seed.ApplicationTests
+2023-07-21 10:56:24.650  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-07-21 10:56:24.660  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f67a4d3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e3f861, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2fb0623e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49b2a47d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5be1d0a4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@415b0b49, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d5620ce, org.springframework.test.context.event.EventPublishingTestExecutionListener@311bf055, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@642a7222, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7d322cad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21be3395, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f49f6af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78452606, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@147e2ae7]
+INFO 2023-07-21 10:56:25.015 v1(6) PropertySourceBootstrapConfiguration.java:112 _ _ _ _ _ [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:56:25.015 v1(6) PropertySourceBootstrapConfiguration.java:112 _ _ _ _ _ [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:56:25.027 v1(6) SpringApplication.java:652 _ _ _ _ _ [restartedMain] The following profiles are active: dev
+2023-07-21 10:56:25.277  WARN 74215 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+INFO 2023-07-21 10:56:25.395 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:56:25.396 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [restartedMain] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:56:25.399 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [restartedMain] Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+WARN 2023-07-21 10:56:25.435 v1(6) Logger.java:44 _ _ _ _ _ [restartedMain] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:56:25.435 v1(6) Logger.java:44 _ _ _ _ _ [restartedMain] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:56:25.441 v1(6) GenericScope.java:295 _ _ _ _ _ [restartedMain] BeanFactory id=b7d88ab2-619e-3dde-8c8f-96471a1652c9
+INFO 2023-07-21 10:56:25.447 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:25.449 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:25.451 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:25.452 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:25.453 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:25.454 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:25.455 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:25.522 v1(6) MeshConfigure.java:25 _ _ _ _ _ [restartedMain] http mesh is disabled.
+INFO 2023-07-21 10:56:25.583 v1(6) JettyServletWebServerFactory.java:149 _ _ _ _ _ [restartedMain] Server initialized with port: 8081
+INFO 2023-07-21 10:56:25.583 v1(6) Server.java:375 _ _ _ _ _ [restartedMain] jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 1.8.0_372-b07
+INFO 2023-07-21 10:56:25.583 v1(6) DefaultSessionIdManager.java:334 _ _ _ _ _ [restartedMain] DefaultSessionIdManager workerName=node0
+INFO 2023-07-21 10:56:25.584 v1(6) DefaultSessionIdManager.java:339 _ _ _ _ _ [restartedMain] No SessionScavenger set, using defaults
+INFO 2023-07-21 10:56:25.584 v1(6) HouseKeeper.java:132 _ _ _ _ _ [restartedMain] node0 Scavenging every 660000ms
+INFO 2023-07-21 10:56:25.584 v1(6) ContextHandler.java:2347 _ _ _ _ _ [restartedMain] Initializing Spring embedded WebApplicationContext
+INFO 2023-07-21 10:56:25.584 v1(6) ServletWebServerApplicationContext.java:285 _ _ _ _ _ [restartedMain] Root WebApplicationContext: initialization completed in 554 ms
+WARN 2023-07-21 10:56:25.609 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [restartedMain] reporter has started. 
+INFO 2023-07-21 10:56:25.661 v1(6) ContextHandler.java:915 _ _ _ _ _ [restartedMain] Started c.b.m.j.w.JettyEmbeddedWebAppContext@feefb51{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.608332249976872013/],AVAILABLE}
+INFO 2023-07-21 10:56:25.661 v1(6) Server.java:415 _ _ _ _ _ [restartedMain] Started @5008195ms
+INFO 2023-07-21 10:56:25.707 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [restartedMain] Init DruidDataSource
+INFO 2023-07-21 10:56:25.769 v1(6) DruidDataSource.java:930 _ _ _ _ _ [restartedMain] {dataSource-9} inited
+2023-07-21 10:56:25.814  INFO 74215 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+2023-07-21 10:56:25.814  INFO 74215 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+WARN 2023-07-21 10:56:25.842 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [restartedMain] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:56:25.843 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+INFO 2023-07-21 10:56:25.854 v1(6) SpringApplication.java:652 _ _ _ _ _ [main] The following profiles are active: dev
+INFO 2023-07-21 10:56:25.982 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [restartedMain] Trace has been initialized with framework default
+INFO 2023-07-21 10:56:26.006 v1(6) MetricsClient.java:201 _ _ _ _ _ [restartedMain] metrics sdk use localhost inet socket to emit metrics
+INFO 2023-07-21 10:56:26.060 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [restartedMain] Initializing ExecutorService 'threadPoolTaskExecutor'
+WARN 2023-07-21 10:56:26.212 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [restartedMain] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:56:26.237 v1(6) OptionalLiveReloadServer.java:58 _ _ _ _ _ [restartedMain] LiveReload server is running on port 35729
+INFO 2023-07-21 10:56:26.263 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:56:26.312 v1(6) ContextHandler.java:2347 _ _ _ _ _ [restartedMain] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2023-07-21 10:56:26.312 v1(6) FrameworkServlet.java:525 _ _ _ _ _ [restartedMain] Initializing Servlet 'dispatcherServlet'
+INFO 2023-07-21 10:56:26.316 v1(6) FrameworkServlet.java:547 _ _ _ _ _ [restartedMain] Completed initialization in 4 ms
+INFO 2023-07-21 10:56:26.319 v1(6) AbstractConnector.java:331 _ _ _ _ _ [restartedMain] Started ServerConnector@6b37ddba{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 10:56:26.320 v1(6) JettyWebServer.java:157 _ _ _ _ _ [restartedMain] Jetty started on port(s) 8081 (http/1.1) with context path ''
+INFO 2023-07-21 10:56:26.332 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [restartedMain] Started Application in 1.556 seconds (JVM running for 5008.866)
+INFO 2023-07-21 10:56:26.335 v1(6) ConditionEvaluationDeltaLoggingListener.java:63 _ _ _ _ _ [restartedMain] Condition evaluation unchanged
+INFO 2023-07-21 10:56:26.586 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:56:26.589 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:56:26.622 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [main] Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+WARN 2023-07-21 10:56:26.799 v1(6) Logger.java:44 _ _ _ _ _ [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:56:26.799 v1(6) Logger.java:44 _ _ _ _ _ [main] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:56:26.841 v1(6) GenericScope.java:295 _ _ _ _ _ [main] BeanFactory id=9a37f43d-2d0c-3c8c-b348-682c9c8389a8
+INFO 2023-07-21 10:56:26.903 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:26.915 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:26.921 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:26.923 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:27.136 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:27.252 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:27.328 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:56:27.739 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [main] Init DruidDataSource
+INFO 2023-07-21 10:56:27.925 v1(6) DruidDataSource.java:930 _ _ _ _ _ [main] {dataSource-1} inited
+INFO 2023-07-21 10:56:28.378 v1(6) Log.java:170 _ _ _ _ _ [main] Logging initialized @4425ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO 2023-07-21 10:56:28.513 v1(6) MeshConfigure.java:25 _ _ _ _ _ [main] http mesh is disabled.
+WARN 2023-07-21 10:56:28.573 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:56:28.573 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:56:28.578 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:56:28.578 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:56:28.789 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [main] reporter has started. 
+INFO 2023-07-21 10:56:30.377 v1(6) RetryExec.java:97 _ _ _ _ _ [main] I/O exception (org.apache.http.conn.ConnectTimeoutException) caught when processing request to {}->http://10.225.72.118:9923: Connect to 10.225.72.118:9923 [/10.225.72.118] failed: connect timed out
+INFO 2023-07-21 10:56:30.379 v1(6) RetryExec.java:113 _ _ _ _ _ [main] Retrying request to {}->http://10.225.72.118:9923
+INFO 2023-07-21 10:56:30.732 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The configurator set Tcc configurator.
+INFO 2023-07-21 10:56:30.753 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The reporter is agent reporter as default.
+INFO 2023-07-21 10:56:30.779 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] Tracer environment: {"cluster":"default","dc":"boe","env":"prod","framework":"default","ipv4":"10.68.186.178","ipv6":"fe80:0:0:0:ce81:b1c:bd2c:69e","language":"java","podName":"-","serviceName":"sensitive-java-sdk","stage":"unknown"}
+INFO 2023-07-21 10:56:30.780 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [main] Trace has been initialized with framework default
+WARN 2023-07-21 10:56:30.910 v1(6) UnixMetricsClient.java:24 _ _ _ _ _ [main] could not write to /opt/tmp/sock/metric.sock
+INFO 2023-07-21 10:56:30.919 v1(6) MetricsClient.java:201 _ _ _ _ _ [main] metrics sdk use localhost inet socket to emit metrics
+INFO 2023-07-21 10:56:31.237 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [main] Initializing ExecutorService 'threadPoolTaskExecutor'
+WARN 2023-07-21 10:56:31.830 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [main] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:56:31.979 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:56:32.047 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [main] Started ApplicationTests in 7.353 seconds (JVM running for 8.094)
+INFO 2023-07-21 10:56:47.423 v1(6) LoggingClientHttpRequestInterceptor.java:80 _ _ _ _ _ [main] start request: URI: sd://ea.infra.mussel_api_boe/mussel/api/v1/auth/system/6982a64d-3be9-4603-913f-00b7da59f530/meta-info; Method: POST; Headers: [Accept:application/json, application/*+json, User-Agent:mussel-java-sdk/0.0.5-SNAPSHOT(java-1.8.0_372), Content-Type:application/json, MU-SYS-ID:6982a64d-3be9-4603-913f-00b7da59f530, MU-TIMESTAMP:1689908207389, MU-SIGN:b145e35fcd338f2330027dfa5e051922, destination-idc:boe, Content-Length:173]; 
+INFO 2023-07-21 10:56:47.974 v1(6) LoggingClientHttpRequestInterceptor.java:69 _ _ _ _ _ [main] request spend time: 550 ms
+INFO 2023-07-21 10:56:48.012 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [SpringContextShutdownHook] Shutting down ExecutorService 'threadPoolTaskExecutor'
+INFO 2023-07-21 10:56:48.045 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [SpringContextShutdownHook] {dataSource-1} closed
+INFO 2023-07-21 10:57:02.077 v1(6) AbstractConnector.java:381 _ _ _ _ _ [Thread-184] Stopped ServerConnector@6b37ddba{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 10:57:02.078 v1(6) HouseKeeper.java:149 _ _ _ _ _ [Thread-184] node0 Stopped scavenging
+INFO 2023-07-21 10:57:02.079 v1(6) ContextHandler.java:2347 _ _ _ _ _ [Thread-184] Destroying Spring FrameworkServlet 'dispatcherServlet'
+INFO 2023-07-21 10:57:02.080 v1(6) ContextHandler.java:1153 _ _ _ _ _ [Thread-184] Stopped c.b.m.j.w.JettyEmbeddedWebAppContext@feefb51{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.608332249976872013/],STOPPED}
+INFO 2023-07-21 10:57:02.140 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [Thread-184] Shutting down ExecutorService 'threadPoolTaskExecutor'
+INFO 2023-07-21 10:57:02.165 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [Thread-184] {dataSource-9} closed
+INFO 2023-07-21 10:57:02.551 v1(6) PropertySourceBootstrapConfiguration.java:112 _ _ _ _ _ [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:57:02.551 v1(6) PropertySourceBootstrapConfiguration.java:112 _ _ _ _ _ [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:57:02.557 v1(6) SpringApplication.java:652 _ _ _ _ _ [restartedMain] The following profiles are active: dev
+2023-07-21 10:57:03.192  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.neko.seed.ApplicationTests], using SpringBootContextLoader
+2023-07-21 10:57:03.197  INFO   --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.neko.seed.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-07-21 10:57:03.197  INFO   --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neko.seed.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-07-21 10:57:03.274  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neko.seed.Application for test class com.neko.seed.ApplicationTests
+2023-07-21 10:57:03.340  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+INFO 2023-07-21 10:57:03.340 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:57:03.341 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [restartedMain] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:57:03.345 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [restartedMain] Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2023-07-21 10:57:03.350  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f67a4d3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e3f861, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2fb0623e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49b2a47d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5be1d0a4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@415b0b49, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d5620ce, org.springframework.test.context.event.EventPublishingTestExecutionListener@311bf055, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@642a7222, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7d322cad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21be3395, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f49f6af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78452606, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@147e2ae7]
+WARN 2023-07-21 10:57:03.382 v1(6) Logger.java:44 _ _ _ _ _ [restartedMain] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:57:03.383 v1(6) Logger.java:44 _ _ _ _ _ [restartedMain] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:57:03.390 v1(6) GenericScope.java:295 _ _ _ _ _ [restartedMain] BeanFactory id=b7d88ab2-619e-3dde-8c8f-96471a1652c9
+INFO 2023-07-21 10:57:03.398 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:03.401 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:03.403 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:03.404 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:03.405 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:03.406 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:03.408 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:03.501 v1(6) MeshConfigure.java:25 _ _ _ _ _ [restartedMain] http mesh is disabled.
+INFO 2023-07-21 10:57:03.557 v1(6) JettyServletWebServerFactory.java:149 _ _ _ _ _ [restartedMain] Server initialized with port: 8081
+INFO 2023-07-21 10:57:03.557 v1(6) Server.java:375 _ _ _ _ _ [restartedMain] jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 1.8.0_372-b07
+INFO 2023-07-21 10:57:03.558 v1(6) DefaultSessionIdManager.java:334 _ _ _ _ _ [restartedMain] DefaultSessionIdManager workerName=node0
+INFO 2023-07-21 10:57:03.558 v1(6) DefaultSessionIdManager.java:339 _ _ _ _ _ [restartedMain] No SessionScavenger set, using defaults
+INFO 2023-07-21 10:57:03.558 v1(6) HouseKeeper.java:132 _ _ _ _ _ [restartedMain] node0 Scavenging every 660000ms
+INFO 2023-07-21 10:57:03.559 v1(6) ContextHandler.java:2347 _ _ _ _ _ [restartedMain] Initializing Spring embedded WebApplicationContext
+INFO 2023-07-21 10:57:03.559 v1(6) ServletWebServerApplicationContext.java:285 _ _ _ _ _ [restartedMain] Root WebApplicationContext: initialization completed in 999 ms
+WARN 2023-07-21 10:57:03.572 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [restartedMain] reporter has started. 
+INFO 2023-07-21 10:57:03.619 v1(6) ContextHandler.java:915 _ _ _ _ _ [restartedMain] Started c.b.m.j.w.JettyEmbeddedWebAppContext@7f4616b{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.5908670547258474800/],AVAILABLE}
+INFO 2023-07-21 10:57:03.619 v1(6) Server.java:415 _ _ _ _ _ [restartedMain] Started @5046153ms
+INFO 2023-07-21 10:57:03.640 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [restartedMain] Init DruidDataSource
+INFO 2023-07-21 10:57:03.698 v1(6) DruidDataSource.java:930 _ _ _ _ _ [restartedMain] {dataSource-10} inited
+WARN 2023-07-21 10:57:03.771 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [restartedMain] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:57:03.771 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+INFO 2023-07-21 10:57:03.914 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [restartedMain] Trace has been initialized with framework default
+2023-07-21 10:57:03.918  WARN 74283 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+INFO 2023-07-21 10:57:03.940 v1(6) MetricsClient.java:201 _ _ _ _ _ [restartedMain] metrics sdk use localhost inet socket to emit metrics
+INFO 2023-07-21 10:57:03.987 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [restartedMain] Initializing ExecutorService 'threadPoolTaskExecutor'
+WARN 2023-07-21 10:57:04.122 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [restartedMain] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:57:04.145 v1(6) OptionalLiveReloadServer.java:58 _ _ _ _ _ [restartedMain] LiveReload server is running on port 35729
+INFO 2023-07-21 10:57:04.167 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:57:04.206 v1(6) ContextHandler.java:2347 _ _ _ _ _ [restartedMain] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2023-07-21 10:57:04.206 v1(6) FrameworkServlet.java:525 _ _ _ _ _ [restartedMain] Initializing Servlet 'dispatcherServlet'
+INFO 2023-07-21 10:57:04.208 v1(6) FrameworkServlet.java:547 _ _ _ _ _ [restartedMain] Completed initialization in 2 ms
+INFO 2023-07-21 10:57:04.211 v1(6) AbstractConnector.java:331 _ _ _ _ _ [restartedMain] Started ServerConnector@3f1cd230{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 10:57:04.211 v1(6) JettyWebServer.java:157 _ _ _ _ _ [restartedMain] Jetty started on port(s) 8081 (http/1.1) with context path ''
+INFO 2023-07-21 10:57:04.219 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [restartedMain] Started Application in 1.825 seconds (JVM running for 5046.753)
+INFO 2023-07-21 10:57:04.221 v1(6) ConditionEvaluationDeltaLoggingListener.java:63 _ _ _ _ _ [restartedMain] Condition evaluation unchanged
+2023-07-21 10:57:04.431  INFO 74283 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+2023-07-21 10:57:04.431  INFO 74283 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:57:04.469 v1(6) SpringApplication.java:652 _ _ _ _ _ [main] The following profiles are active: dev
+INFO 2023-07-21 10:57:05.071 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:57:05.076 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:57:05.099 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [main] Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+WARN 2023-07-21 10:57:05.214 v1(6) Logger.java:44 _ _ _ _ _ [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:57:05.215 v1(6) Logger.java:44 _ _ _ _ _ [main] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:57:05.248 v1(6) GenericScope.java:295 _ _ _ _ _ [main] BeanFactory id=9a37f43d-2d0c-3c8c-b348-682c9c8389a8
+INFO 2023-07-21 10:57:05.303 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:05.316 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:05.322 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:05.324 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:05.486 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:05.585 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:05.661 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:06.111 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [main] Init DruidDataSource
+INFO 2023-07-21 10:57:06.300 v1(6) DruidDataSource.java:930 _ _ _ _ _ [main] {dataSource-1} inited
+INFO 2023-07-21 10:57:06.667 v1(6) Log.java:170 _ _ _ _ _ [main] Logging initialized @3997ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO 2023-07-21 10:57:06.813 v1(6) MeshConfigure.java:25 _ _ _ _ _ [main] http mesh is disabled.
+WARN 2023-07-21 10:57:06.878 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:57:06.879 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:57:06.890 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:57:06.890 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:57:07.102 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [main] reporter has started. 
+INFO 2023-07-21 10:57:08.560 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The configurator set Tcc configurator.
+INFO 2023-07-21 10:57:08.583 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The reporter is agent reporter as default.
+INFO 2023-07-21 10:57:08.605 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] Tracer environment: {"cluster":"default","dc":"boe","env":"prod","framework":"default","ipv4":"10.68.186.178","ipv6":"fe80:0:0:0:ce81:b1c:bd2c:69e","language":"java","podName":"-","serviceName":"sensitive-java-sdk","stage":"unknown"}
+INFO 2023-07-21 10:57:08.605 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [main] Trace has been initialized with framework default
+WARN 2023-07-21 10:57:08.737 v1(6) UnixMetricsClient.java:24 _ _ _ _ _ [main] could not write to /opt/tmp/sock/metric.sock
+INFO 2023-07-21 10:57:08.742 v1(6) MetricsClient.java:201 _ _ _ _ _ [main] metrics sdk use localhost inet socket to emit metrics
+INFO 2023-07-21 10:57:09.048 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [main] Initializing ExecutorService 'threadPoolTaskExecutor'
+WARN 2023-07-21 10:57:09.621 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [main] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:57:09.785 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:57:09.852 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [main] Started ApplicationTests in 6.47 seconds (JVM running for 7.183)
+INFO 2023-07-21 10:57:10.109 v1(6) LoggingClientHttpRequestInterceptor.java:80 _ _ _ _ _ [main] start request: URI: sd://ea.infra.mussel_api_boe/mussel/api/v1/auth/system/6982a64d-3be9-4603-913f-00b7da59f530/meta-info; Method: POST; Headers: [Accept:application/json, application/*+json, User-Agent:mussel-java-sdk/0.0.5-SNAPSHOT(java-1.8.0_372), Content-Type:application/json, MU-SYS-ID:6982a64d-3be9-4603-913f-00b7da59f530, MU-TIMESTAMP:1689908230077, MU-SIGN:8f8f96b37684e766a837ec75ef2bcc42, destination-idc:boe, Content-Length:196]; 
+INFO 2023-07-21 10:57:10.476 v1(6) LoggingClientHttpRequestInterceptor.java:69 _ _ _ _ _ [main] request spend time: 367 ms
+INFO 2023-07-21 10:57:27.466 v1(6) LoggingClientHttpRequestInterceptor.java:80 _ _ _ _ _ [main] start request: URI: sd://ea.infra.mussel_api_boe/mussel/api/v1/auth/file-auth/temporary/preview; Method: POST; Headers: [Accept:application/json, application/*+json, User-Agent:mussel-java-sdk/0.0.5-SNAPSHOT(java-1.8.0_372), Content-Type:application/json, MU-SYS-ID:6982a64d-3be9-4603-913f-00b7da59f530, MU-TIMESTAMP:1689908247458, MU-SIGN:1ed0b4e5462b5077e68a3b76776f3641, destination-idc:boe, Content-Length:167]; 
+INFO 2023-07-21 10:57:27.507 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [SpringContextShutdownHook] Shutting down ExecutorService 'threadPoolTaskExecutor'
+INFO 2023-07-21 10:57:27.540 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [SpringContextShutdownHook] {dataSource-1} closed
+INFO 2023-07-21 10:57:27.867 v1(6) LoggingClientHttpRequestInterceptor.java:69 _ _ _ _ _ [main] request spend time: 401 ms
+WARN 2023-07-21 10:57:27.872 v1(6) TestContextManager.java:546 _ _ _ _ _ [main] Caught exception while invoking 'afterTestExecution' callback on TestExecutionListener [org.springframework.test.context.event.EventPublishingTestExecutionListener@311bf055] for test method [public void com.neko.seed.ApplicationTests.contextLoads()] and test instance [com.neko.seed.ApplicationTests@25890ce3]
+
+java.lang.IllegalStateException: The ApplicationContext loaded for [[WebMergedContextConfiguration@f4c3e9 testClass = ApplicationTests, locations = '{}', classes = '{class com.neko.seed.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4116aac9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6ed3ccb2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2925bf5b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@69453e37, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5f058f00], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]] is not active. This may be due to one of the following reasons: 1) the context was closed programmatically by user code; 2) the context was closed during parallel test execution either according to @DirtiesContext semantics or due to automatic eviction from the ContextCache due to a maximum cache size policy.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.TestContext.publishEvent(TestContext.java:94)
+	at org.springframework.test.context.event.EventPublishingTestExecutionListener.afterTestExecution(EventPublishingTestExecutionListener.java:129)
+	at org.springframework.test.context.TestContextManager.afterTestExecution(TestContextManager.java:379)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:92)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+WARN 2023-07-21 10:57:27.874 v1(6) TestContextManager.java:546 _ _ _ _ _ [main] Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78452606] for test method [public void com.neko.seed.ApplicationTests.contextLoads()] and test instance [com.neko.seed.ApplicationTests@25890ce3]
+
+java.lang.IllegalStateException: The ApplicationContext loaded for [[WebMergedContextConfiguration@f4c3e9 testClass = ApplicationTests, locations = '{}', classes = '{class com.neko.seed.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4116aac9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6ed3ccb2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2925bf5b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@69453e37, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5f058f00], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]] is not active. This may be due to one of the following reasons: 1) the context was closed programmatically by user code; 2) the context was closed during parallel test execution either according to @DirtiesContext semantics or due to automatic eviction from the ContextCache due to a maximum cache size policy.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener.afterTestMethod(WebDriverTestExecutionListener.java:41)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:441)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+WARN 2023-07-21 10:57:27.874 v1(6) TestContextManager.java:546 _ _ _ _ _ [main] Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f49f6af] for test method [public void com.neko.seed.ApplicationTests.contextLoads()] and test instance [com.neko.seed.ApplicationTests@25890ce3]
+
+java.lang.IllegalStateException: The ApplicationContext loaded for [[WebMergedContextConfiguration@f4c3e9 testClass = ApplicationTests, locations = '{}', classes = '{class com.neko.seed.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4116aac9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6ed3ccb2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2925bf5b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@69453e37, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5f058f00], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]] is not active. This may be due to one of the following reasons: 1) the context was closed programmatically by user code; 2) the context was closed during parallel test execution either according to @DirtiesContext semantics or due to automatic eviction from the ContextCache due to a maximum cache size policy.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener.afterTestMethod(MockMvcPrintOnlyOnFailureTestExecutionListener.java:39)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:441)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+WARN 2023-07-21 10:57:27.874 v1(6) TestContextManager.java:546 _ _ _ _ _ [main] Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21be3395] for test method [public void com.neko.seed.ApplicationTests.contextLoads()] and test instance [com.neko.seed.ApplicationTests@25890ce3]
+
+java.lang.IllegalStateException: The ApplicationContext loaded for [[WebMergedContextConfiguration@f4c3e9 testClass = ApplicationTests, locations = '{}', classes = '{class com.neko.seed.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4116aac9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6ed3ccb2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2925bf5b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@69453e37, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5f058f00], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]] is not active. This may be due to one of the following reasons: 1) the context was closed programmatically by user code; 2) the context was closed during parallel test execution either according to @DirtiesContext semantics or due to automatic eviction from the ContextCache due to a maximum cache size policy.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener.afterTestMethod(MockRestServiceServerResetTestExecutionListener.java:40)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:441)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+WARN 2023-07-21 10:57:27.875 v1(6) TestContextManager.java:546 _ _ _ _ _ [main] Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@642a7222] for test method [public void com.neko.seed.ApplicationTests.contextLoads()] and test instance [com.neko.seed.ApplicationTests@25890ce3]
+
+java.lang.IllegalStateException: The ApplicationContext loaded for [[WebMergedContextConfiguration@f4c3e9 testClass = ApplicationTests, locations = '{}', classes = '{class com.neko.seed.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4116aac9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6ed3ccb2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2925bf5b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@69453e37, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5f058f00], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]] is not active. This may be due to one of the following reasons: 1) the context was closed programmatically by user code; 2) the context was closed during parallel test execution either according to @DirtiesContext semantics or due to automatic eviction from the ContextCache due to a maximum cache size policy.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.afterTestMethod(ResetMocksTestExecutionListener.java:64)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:441)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+WARN 2023-07-21 10:57:27.875 v1(6) TestContextManager.java:546 _ _ _ _ _ [main] Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.test.context.event.EventPublishingTestExecutionListener@311bf055] for test method [public void com.neko.seed.ApplicationTests.contextLoads()] and test instance [com.neko.seed.ApplicationTests@25890ce3]
+
+java.lang.IllegalStateException: The ApplicationContext loaded for [[WebMergedContextConfiguration@f4c3e9 testClass = ApplicationTests, locations = '{}', classes = '{class com.neko.seed.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4116aac9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6ed3ccb2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2925bf5b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@69453e37, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5f058f00], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]] is not active. This may be due to one of the following reasons: 1) the context was closed programmatically by user code; 2) the context was closed during parallel test execution either according to @DirtiesContext semantics or due to automatic eviction from the ContextCache due to a maximum cache size policy.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.TestContext.publishEvent(TestContext.java:94)
+	at org.springframework.test.context.event.EventPublishingTestExecutionListener.afterTestMethod(EventPublishingTestExecutionListener.java:138)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:441)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:94)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+WARN 2023-07-21 10:57:27.882 v1(6) TestContextManager.java:536 _ _ _ _ _ [main] Caught exception while invoking 'afterTestClass' callback on TestExecutionListener [org.springframework.test.context.event.EventPublishingTestExecutionListener@311bf055] for test class [class com.neko.seed.ApplicationTests]
+
+java.lang.IllegalStateException: The ApplicationContext loaded for [[WebMergedContextConfiguration@f4c3e9 testClass = ApplicationTests, locations = '{}', classes = '{class com.neko.seed.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4116aac9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6ed3ccb2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2925bf5b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@69453e37, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5f058f00], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]] is not active. This may be due to one of the following reasons: 1) the context was closed programmatically by user code; 2) the context was closed during parallel test execution either according to @DirtiesContext semantics or due to automatic eviction from the ContextCache due to a maximum cache size policy.
+	at org.springframework.util.Assert.state(Assert.java:97)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:127)
+	at org.springframework.test.context.TestContext.publishEvent(TestContext.java:94)
+	at org.springframework.test.context.event.EventPublishingTestExecutionListener.afterTestClass(EventPublishingTestExecutionListener.java:147)
+	at org.springframework.test.context.TestContextManager.afterTestClass(TestContextManager.java:488)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:77)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+INFO 2023-07-21 10:57:55.072 v1(6) AbstractConnector.java:381 _ _ _ _ _ [Thread-202] Stopped ServerConnector@3f1cd230{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 10:57:55.073 v1(6) HouseKeeper.java:149 _ _ _ _ _ [Thread-202] node0 Stopped scavenging
+INFO 2023-07-21 10:57:55.075 v1(6) ContextHandler.java:2347 _ _ _ _ _ [Thread-202] Destroying Spring FrameworkServlet 'dispatcherServlet'
+INFO 2023-07-21 10:57:55.076 v1(6) ContextHandler.java:1153 _ _ _ _ _ [Thread-202] Stopped c.b.m.j.w.JettyEmbeddedWebAppContext@7f4616b{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.5908670547258474800/],STOPPED}
+INFO 2023-07-21 10:57:55.117 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [Thread-202] Shutting down ExecutorService 'threadPoolTaskExecutor'
+INFO 2023-07-21 10:57:55.122 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [Thread-202] {dataSource-10} closed
+2023-07-21 10:57:55.816  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.neko.seed.ApplicationTests], using SpringBootContextLoader
+2023-07-21 10:57:55.822  INFO   --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.neko.seed.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-07-21 10:57:55.822  INFO   --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neko.seed.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-07-21 10:57:55.905  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neko.seed.Application for test class com.neko.seed.ApplicationTests
+2023-07-21 10:57:55.971  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-07-21 10:57:55.981  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f67a4d3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e3f861, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2fb0623e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49b2a47d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5be1d0a4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@415b0b49, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d5620ce, org.springframework.test.context.event.EventPublishingTestExecutionListener@311bf055, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@642a7222, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7d322cad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21be3395, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f49f6af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78452606, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@147e2ae7]
+INFO 2023-07-21 10:57:56.186 v1(6) PropertySourceBootstrapConfiguration.java:112 _ _ _ _ _ [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:57:56.186 v1(6) PropertySourceBootstrapConfiguration.java:112 _ _ _ _ _ [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:57:56.193 v1(6) SpringApplication.java:652 _ _ _ _ _ [restartedMain] The following profiles are active: dev
+INFO 2023-07-21 10:57:56.498 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:57:56.498 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [restartedMain] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:57:56.506 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [restartedMain] Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+WARN 2023-07-21 10:57:56.546 v1(6) Logger.java:44 _ _ _ _ _ [restartedMain] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:57:56.546 v1(6) Logger.java:44 _ _ _ _ _ [restartedMain] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:57:56.553 v1(6) GenericScope.java:295 _ _ _ _ _ [restartedMain] BeanFactory id=b7d88ab2-619e-3dde-8c8f-96471a1652c9
+INFO 2023-07-21 10:57:56.561 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:56.563 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:56.565 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:56.565 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:56.566 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:56.567 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:56.569 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [restartedMain] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-21 10:57:56.607  WARN 74378 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+INFO 2023-07-21 10:57:56.640 v1(6) MeshConfigure.java:25 _ _ _ _ _ [restartedMain] http mesh is disabled.
+INFO 2023-07-21 10:57:56.713 v1(6) JettyServletWebServerFactory.java:149 _ _ _ _ _ [restartedMain] Server initialized with port: 8081
+INFO 2023-07-21 10:57:56.714 v1(6) Server.java:375 _ _ _ _ _ [restartedMain] jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 1.8.0_372-b07
+INFO 2023-07-21 10:57:56.714 v1(6) DefaultSessionIdManager.java:334 _ _ _ _ _ [restartedMain] DefaultSessionIdManager workerName=node0
+INFO 2023-07-21 10:57:56.714 v1(6) DefaultSessionIdManager.java:339 _ _ _ _ _ [restartedMain] No SessionScavenger set, using defaults
+INFO 2023-07-21 10:57:56.714 v1(6) HouseKeeper.java:132 _ _ _ _ _ [restartedMain] node0 Scavenging every 660000ms
+INFO 2023-07-21 10:57:56.715 v1(6) ContextHandler.java:2347 _ _ _ _ _ [restartedMain] Initializing Spring embedded WebApplicationContext
+INFO 2023-07-21 10:57:56.715 v1(6) ServletWebServerApplicationContext.java:285 _ _ _ _ _ [restartedMain] Root WebApplicationContext: initialization completed in 519 ms
+WARN 2023-07-21 10:57:56.730 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [restartedMain] reporter has started. 
+INFO 2023-07-21 10:57:56.774 v1(6) ContextHandler.java:915 _ _ _ _ _ [restartedMain] Started c.b.m.j.w.JettyEmbeddedWebAppContext@4dabd71b{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.6864794968037184176/],AVAILABLE}
+INFO 2023-07-21 10:57:56.774 v1(6) Server.java:415 _ _ _ _ _ [restartedMain] Started @5099308ms
+INFO 2023-07-21 10:57:56.793 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [restartedMain] Init DruidDataSource
+INFO 2023-07-21 10:57:56.856 v1(6) DruidDataSource.java:930 _ _ _ _ _ [restartedMain] {dataSource-11} inited
+WARN 2023-07-21 10:57:56.927 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [restartedMain] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:57:56.927 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+INFO 2023-07-21 10:57:57.078 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [restartedMain] Trace has been initialized with framework default
+INFO 2023-07-21 10:57:57.102 v1(6) MetricsClient.java:201 _ _ _ _ _ [restartedMain] metrics sdk use localhost inet socket to emit metrics
+2023-07-21 10:57:57.104  INFO 74378 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+2023-07-21 10:57:57.104  INFO 74378 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:57:57.143 v1(6) SpringApplication.java:652 _ _ _ _ _ [main] The following profiles are active: dev
+INFO 2023-07-21 10:57:57.154 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [restartedMain] Initializing ExecutorService 'threadPoolTaskExecutor'
+WARN 2023-07-21 10:57:57.275 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [restartedMain] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:57:57.295 v1(6) OptionalLiveReloadServer.java:58 _ _ _ _ _ [restartedMain] LiveReload server is running on port 35729
+INFO 2023-07-21 10:57:57.316 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:57:57.360 v1(6) ContextHandler.java:2347 _ _ _ _ _ [restartedMain] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2023-07-21 10:57:57.360 v1(6) FrameworkServlet.java:525 _ _ _ _ _ [restartedMain] Initializing Servlet 'dispatcherServlet'
+INFO 2023-07-21 10:57:57.362 v1(6) FrameworkServlet.java:547 _ _ _ _ _ [restartedMain] Completed initialization in 2 ms
+INFO 2023-07-21 10:57:57.365 v1(6) AbstractConnector.java:331 _ _ _ _ _ [restartedMain] Started ServerConnector@6e3e63b3{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 10:57:57.365 v1(6) JettyWebServer.java:157 _ _ _ _ _ [restartedMain] Jetty started on port(s) 8081 (http/1.1) with context path ''
+INFO 2023-07-21 10:57:57.375 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [restartedMain] Started Application in 1.428 seconds (JVM running for 5099.908)
+INFO 2023-07-21 10:57:57.378 v1(6) ConditionEvaluationDeltaLoggingListener.java:63 _ _ _ _ _ [restartedMain] Condition evaluation unchanged
+INFO 2023-07-21 10:57:57.743 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:57:57.745 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:57:57.772 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [main] Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+WARN 2023-07-21 10:57:57.878 v1(6) Logger.java:44 _ _ _ _ _ [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:57:57.879 v1(6) Logger.java:44 _ _ _ _ _ [main] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:57:57.908 v1(6) GenericScope.java:295 _ _ _ _ _ [main] BeanFactory id=9a37f43d-2d0c-3c8c-b348-682c9c8389a8
+INFO 2023-07-21 10:57:57.960 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:57.992 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:58.000 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:58.005 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:58.155 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:58.253 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:58.329 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:57:58.663 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [main] Init DruidDataSource
+INFO 2023-07-21 10:57:58.842 v1(6) DruidDataSource.java:930 _ _ _ _ _ [main] {dataSource-1} inited
+INFO 2023-07-21 10:57:59.212 v1(6) Log.java:170 _ _ _ _ _ [main] Logging initialized @3982ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO 2023-07-21 10:57:59.347 v1(6) MeshConfigure.java:25 _ _ _ _ _ [main] http mesh is disabled.
+WARN 2023-07-21 10:57:59.411 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:57:59.411 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:57:59.416 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:57:59.416 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:57:59.610 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [main] reporter has started. 
+INFO 2023-07-21 10:58:01.111 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The configurator set Tcc configurator.
+INFO 2023-07-21 10:58:01.127 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The reporter is agent reporter as default.
+INFO 2023-07-21 10:58:01.154 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] Tracer environment: {"cluster":"default","dc":"boe","env":"prod","framework":"default","ipv4":"10.68.186.178","ipv6":"fe80:0:0:0:ce81:b1c:bd2c:69e","language":"java","podName":"-","serviceName":"sensitive-java-sdk","stage":"unknown"}
+INFO 2023-07-21 10:58:01.154 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [main] Trace has been initialized with framework default
+WARN 2023-07-21 10:58:01.280 v1(6) UnixMetricsClient.java:24 _ _ _ _ _ [main] could not write to /opt/tmp/sock/metric.sock
+INFO 2023-07-21 10:58:01.285 v1(6) MetricsClient.java:201 _ _ _ _ _ [main] metrics sdk use localhost inet socket to emit metrics
+INFO 2023-07-21 10:58:01.573 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [main] Initializing ExecutorService 'threadPoolTaskExecutor'
+WARN 2023-07-21 10:58:02.100 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [main] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:58:02.229 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:58:02.288 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [main] Started ApplicationTests in 6.274 seconds (JVM running for 7.058)
+INFO 2023-07-21 10:58:02.487 v1(6) LoggingClientHttpRequestInterceptor.java:80 _ _ _ _ _ [main] start request: URI: sd://ea.infra.mussel_api_boe/mussel/api/v1/auth/file-auth/temporary/preview; Method: POST; Headers: [Accept:application/json, application/*+json, User-Agent:mussel-java-sdk/0.0.5-SNAPSHOT(java-1.8.0_372), Content-Type:application/json, MU-SYS-ID:6982a64d-3be9-4603-913f-00b7da59f530, MU-TIMESTAMP:1689908282461, MU-SIGN:e238c25ae23a5a75ed0d22419af50bd0, destination-idc:boe, Content-Length:188]; 
+INFO 2023-07-21 10:58:03.325 v1(6) LoggingClientHttpRequestInterceptor.java:69 _ _ _ _ _ [main] request spend time: 837 ms
+INFO 2023-07-21 10:58:14.989 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [SpringContextShutdownHook] Shutting down ExecutorService 'threadPoolTaskExecutor'
+ERROR 2023-07-21 10:58:15.016 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-19] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: interrupted
+WARN 2023-07-21 10:58:15.016 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-19] tcc::tcc.bconfig.proxy: no hosts
+INFO 2023-07-21 10:58:15.036 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [SpringContextShutdownHook] {dataSource-1} closed
+2023-07-21 10:59:23.844  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.neko.seed.ApplicationTests], using SpringBootContextLoader
+2023-07-21 10:59:23.849  INFO   --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.neko.seed.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-07-21 10:59:23.849  INFO   --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.neko.seed.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-07-21 10:59:23.922  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.neko.seed.Application for test class com.neko.seed.ApplicationTests
+2023-07-21 10:59:23.985  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-07-21 10:59:23.995  INFO   --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2f67a4d3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e3f861, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2fb0623e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49b2a47d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5be1d0a4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@415b0b49, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d5620ce, org.springframework.test.context.event.EventPublishingTestExecutionListener@311bf055, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@642a7222, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7d322cad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21be3395, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f49f6af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@78452606, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@147e2ae7]
+2023-07-21 10:59:24.581  WARN 74526 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-07-21 10:59:25.214  INFO 74526 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+2023-07-21 10:59:25.214  INFO 74526 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-Application-Environment'}]
+INFO 2023-07-21 10:59:25.253 v1(6) SpringApplication.java:652 _ _ _ _ _ [main] The following profiles are active: dev
+INFO 2023-07-21 10:59:25.880 v1(6) RepositoryConfigurationDelegate.java:249 _ _ _ _ _ [main] Multiple Spring Data modules found, entering strict repository configuration mode!
+INFO 2023-07-21 10:59:25.883 v1(6) RepositoryConfigurationDelegate.java:127 _ _ _ _ _ [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+INFO 2023-07-21 10:59:25.903 v1(6) RepositoryConfigurationDelegate.java:187 _ _ _ _ _ [main] Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+WARN 2023-07-21 10:59:26.012 v1(6) Logger.java:44 _ _ _ _ _ [main] Skipping MapperFactoryBean with name 'userMapper' and 'com.neko.seed.user.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+WARN 2023-07-21 10:59:26.012 v1(6) Logger.java:44 _ _ _ _ _ [main] No MyBatis mapper was found in '[com.neko.seed]' package. Please check your configuration.
+INFO 2023-07-21 10:59:26.042 v1(6) GenericScope.java:295 _ _ _ _ _ [main] BeanFactory id=9a37f43d-2d0c-3c8c-b348-682c9c8389a8
+INFO 2023-07-21 10:59:26.131 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'ea.rpc-com.bytedance.ea.saas.aep.properties.RpcEndpointProperties' of type [com.bytedance.ea.saas.aep.properties.RpcEndpointProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:59:26.139 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:59:26.150 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:59:26.153 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:59:26.304 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:59:26.440 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:59:26.521 v1(6) PostProcessorRegistrationDelegate.java:335 _ _ _ _ _ [main] Bean 'stringRedisTemplate' of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2023-07-21 10:59:26.894 v1(6) DruidDataSourceAutoConfigure.java:56 _ _ _ _ _ [main] Init DruidDataSource
+INFO 2023-07-21 10:59:27.076 v1(6) DruidDataSource.java:930 _ _ _ _ _ [main] {dataSource-1} inited
+INFO 2023-07-21 10:59:27.450 v1(6) Log.java:170 _ _ _ _ _ [main] Logging initialized @4132ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO 2023-07-21 10:59:27.593 v1(6) MeshConfigure.java:25 _ _ _ _ _ [main] http mesh is disabled.
+WARN 2023-07-21 10:59:27.668 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:59:27.668 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:59:27.673 v1(6) URLConfigurationSource.java:126 _ _ _ _ _ [main] No URLs will be polled as dynamic configuration sources.
+INFO 2023-07-21 10:59:27.673 v1(6) URLConfigurationSource.java:127 _ _ _ _ _ [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+WARN 2023-07-21 10:59:27.902 v1(6) ByteDanceMeterRegistry.java:65 _ _ _ _ _ [main] reporter has started. 
+INFO 2023-07-21 10:59:29.330 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The configurator set Tcc configurator.
+INFO 2023-07-21 10:59:29.351 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] The reporter is agent reporter as default.
+INFO 2023-07-21 10:59:29.372 v1(6) ExtLogger.java:33 _ _ _ _ _ [main] [bytedtrace] Tracer environment: {"cluster":"default","dc":"boe","env":"prod","framework":"default","ipv4":"10.68.186.178","ipv6":"fe80:0:0:0:ce81:b1c:bd2c:69e","language":"java","podName":"-","serviceName":"sensitive-java-sdk","stage":"unknown"}
+INFO 2023-07-21 10:59:29.373 v1(6) TraceAutoInitializr.java:57 _ _ _ _ _ [main] Trace has been initialized with framework default
+WARN 2023-07-21 10:59:29.488 v1(6) UnixMetricsClient.java:24 _ _ _ _ _ [main] could not write to /opt/tmp/sock/metric.sock
+INFO 2023-07-21 10:59:29.493 v1(6) MetricsClient.java:201 _ _ _ _ _ [main] metrics sdk use localhost inet socket to emit metrics
+INFO 2023-07-21 10:59:29.791 v1(6) ExecutorConfigurationSupport.java:181 _ _ _ _ _ [main] Initializing ExecutorService 'threadPoolTaskExecutor'
+WARN 2023-07-21 10:59:30.299 v1(6) FreeMarkerAutoConfiguration.java:65 _ _ _ _ _ [main] Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+INFO 2023-07-21 10:59:30.430 v1(6) EndpointLinksResolver.java:58 _ _ _ _ _ [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+INFO 2023-07-21 10:59:30.486 v1(6) StartupInfoLogger.java:61 _ _ _ _ _ [main] Started ApplicationTests in 6.46 seconds (JVM running for 7.168)
+INFO 2023-07-21 10:59:30.721 v1(6) LoggingClientHttpRequestInterceptor.java:80 _ _ _ _ _ [main] start request: URI: sd://ea.infra.mussel_api_boe/mussel/api/v1/auth/file-auth/temporary/preview; Method: POST; Headers: [Accept:application/json, application/*+json, User-Agent:mussel-java-sdk/0.0.5-SNAPSHOT(java-1.8.0_372), Content-Type:application/json, MU-SYS-ID:6982a64d-3be9-4603-913f-00b7da59f530, MU-TIMESTAMP:1689908370690, MU-SIGN:f88aaec6ab385ec469f46336d348f46e, destination-idc:boe, Content-Length:188]; 
+INFO 2023-07-21 10:59:31.855 v1(6) LoggingClientHttpRequestInterceptor.java:69 _ _ _ _ _ [main] request spend time: 1133 ms

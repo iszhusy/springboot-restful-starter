@@ -1,0 +1,12 @@
+ERROR 2023-07-21 16:00:26.535 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: timeout
+WARN 2023-07-21 16:00:26.537 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 16:00:32.555 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: connect timed out
+WARN 2023-07-21 16:00:32.556 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+ERROR 2023-07-21 16:00:55.381 v1(6) Discovery.java:640 _ _ _ _ _ [Thread-28] Http request exception. Request{method=GET, url=http://10.37.20.200:2280/v1/lookup/name?name=tcc.bconfig.proxy.service.boe}, error: Failed to connect to /10.37.20.200:2280
+WARN 2023-07-21 16:00:55.381 v1(6) ConsulTccFactory.java:59 _ _ _ _ _ [Thread-28] tcc::tcc.bconfig.proxy: no hosts
+INFO 2023-07-21 16:46:22.946 v1(6) AbstractConnector.java:381 _ _ _ _ _ [SpringContextShutdownHook] Stopped ServerConnector@62ca9f37{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO 2023-07-21 16:46:22.946 v1(6) HouseKeeper.java:149 _ _ _ _ _ [SpringContextShutdownHook] node0 Stopped scavenging
+INFO 2023-07-21 16:46:22.949 v1(6) ContextHandler.java:2347 _ _ _ _ _ [SpringContextShutdownHook] Destroying Spring FrameworkServlet 'dispatcherServlet'
+INFO 2023-07-21 16:46:22.951 v1(6) ContextHandler.java:1153 _ _ _ _ _ [SpringContextShutdownHook] Stopped c.b.m.j.w.JettyEmbeddedWebAppContext@d1b0f49{application,/v1,[file:///private/var/folders/b1/0fd1b6hs7lz0fm_mh346lybm0000gn/T/jetty-docbase.8081.5076205405560642154/],STOPPED}
+INFO 2023-07-21 16:46:23.035 v1(6) ExecutorConfigurationSupport.java:218 _ _ _ _ _ [SpringContextShutdownHook] Shutting down ExecutorService 'threadPoolTaskExecutor'
+INFO 2023-07-21 16:46:23.037 v1(6) DruidDataSource.java:1825 _ _ _ _ _ [SpringContextShutdownHook] {dataSource-17} closed
